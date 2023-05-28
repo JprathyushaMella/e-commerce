@@ -1,0 +1,54 @@
+
+
+
+.footer_nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.header__options{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+
+.header__optionsone{
+    font-size: 10px;
+}
+
+.header__optionstwo{
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.header__optionbasket{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.header__basketcount{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.footer {
+    height: 50px;
+    align-items: center;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 100;
+    padding: 10px;
+}
+
+@media (min-width: 600px){
+    .footer_nav{
+        
+        display: none;
+    } 
+    .footer{
+        display: none;
+    }
+  }
